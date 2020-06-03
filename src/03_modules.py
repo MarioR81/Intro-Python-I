@@ -11,15 +11,8 @@ import sys
 # Print out the command line arguments in sys.argv, one per line:
 # YOUR CODE HERE
 
-print(sys.argv.append)
-print(sys.argv.count)
-print(sys.argv.extend)
-print(sys.argv.index)
-print(sys.argv.insert)
-print(sys.argv.pop)
-print(sys.argv.remove)
-print(sys.argv.reverse)
-print(sys.argv.sort)
+for arg in sys.argv:
+    print(arg)
 
 # Print out the OS platform you're using:
 # YOUR CODE HERE
